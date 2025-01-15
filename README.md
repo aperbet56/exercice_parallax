@@ -8,7 +8,7 @@ Création d'un projet me permettant de mettre en place un effet de parallaxe en 
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/exercice_parallax/
 
 ## Projet développé avec
 
