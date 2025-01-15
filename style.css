@@ -1,0 +1,58 @@
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    /* Prendra 100% de la hauteur du viewport, et donc de l'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    /* Empêche l'image de se répéter en fonction de la taille d'écran */
+    background-position: center;
+    /* Centre la position de l'image */
+    background-size: cover;
+    /* L'image prendra 100% de l'espace, quitte à la crop */
+    background-attachment: fixed;
+    /* Fixe l'image pendant le scroll */
+}
+
+.section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.s1 {
+    background-image: url(img/img1.jpg);
+}
+
+.s2 {
+    background-image: url(img/img2.jpg);
+
+}
+
+.s3 {
+    background-image: url(img/img3.jpg);
+}
